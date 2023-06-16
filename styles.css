@@ -1,0 +1,181 @@
+@font-face{
+    font-family: 'OpenSans';
+    src: url('Police/OpenSans-Regular.ttf') format('truetype');        
+}
+@font-face{
+    font-family: 'raleway';
+    src: url('Police/Raleway-Regular.ttf') format('truetype');
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    background-color: #656565;
+}
+#conteneur1{
+    background-color: #f0eeee;
+    margin: 0;
+}
+nav{
+    background-color: #656565;
+    margin: 0;
+    font-family: 'OpenSans';
+}
+header{
+    text-align: center;
+    background-color: #656565;
+    margin: 0;
+    margin-top: 0px;
+}
+ul{
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+li{
+    display: inline;
+    float: right;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 30px;
+    padding-top: 5px ;
+    color: white;
+}
+#actuel{
+    color: #da491c;
+}
+li a:hover{
+    color: #da491c;
+    transition: color 0.5s;
+}
+#logo{
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+#title{
+    font-size: 400%;
+    color: white;
+    font-family: 'raleway';
+    margin-top: 190px;
+    margin-bottom: 10px;
+}
+.orang{
+    color: #da491c;
+}
+#barre{
+    color: #da491c;
+    margin-top: 0 ;
+}
+header p{
+    font-family: 'OpenSans';
+    font-size: 160%;
+    color: white;
+    width: 55%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+#liste{
+    background-color: #f0eeee;
+    margin-bottom: 0%;
+    margin-top: 0;
+    column-count: 3;
+    font-family: 'OpenSans';
+    padding-top: 2%;
+}
+#liste h3{
+    text-transform: uppercase;
+}
+#liste div{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#marques{
+    background-color: white;
+    margin-bottom: 0%;
+    margin-top: 0;
+    font-family: 'OpenSans';
+    font-size: 115%;
+    padding-bottom: 3%;
+}
+#titre{
+    border-left: #da491c solid 2px;
+}
+#marques div{
+    margin-left: 9%;
+    
+}
+#marques h1{
+    font-family: 'raleway';
+    color: #da491c;
+    margin-left: 1%;
+    text-transform: uppercase;
+    font-size: 200%;
+}
+#bas-page{
+    text-align: center;
+    width: 55%;
+    font-size: 120%;
+    margin: auto;
+    font-family: 'OpenSans';
+}
+#smaller{
+    color: #da491c;
+    font-size: medium;
+}
+footer{
+    background-color: #292929;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    font-family: 'OpenSans';
+    overflow-y: hidden;
+    text-align: center;
+}
+form{
+    margin-left: 10%;
+    font-size: small;
+    padding-top: 1%;
+    text-align: left;
+}
+footer img{
+    float: right;
+}
+#slider{
+    margin: auto;
+}
+#bas-page2{
+    background-color: #f0eeee;
+    font-family: 'OpenSans';
+    padding-bottom: 5%;
+}
+#bas-page2 h1{
+    text-transform: uppercase;
+    color: black;
+    font-size: 120%;
+    
+    padding-top: 5%;
+    font-size: 150%;
+    margin-left: 10%;
+}
+#container2{
+    background-color: #f0eeee;
+    margin-bottom: 0%;
+}
+#bas-page2 p{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: large;
+}
+#bas-page2 a{
+    text-decoration: none;
+    color: white;
+    background-color: #da491c;
+    padding: 1%;
+    margin-left: 15%;
+    margin-top: 5%
+}
